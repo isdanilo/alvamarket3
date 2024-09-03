@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#market{
+    color: #00ffc2;
+}
+#alva{
+    color: #ffde00;
+}
+.titulo{
+    display: flex;
+    font-size: 40px;
+    width: 50vh;
+    margin-left: 2vh;
+}
+a {
+    text-decoration: none;
+  }
+  
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4e4e4;
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+    font-family: "Tinos", serif;
+}
+
+.real_rodape{
+    height: 55vh;
+    background-image: url(imagem\ rodape.webp);
+    display: flex;
+    align-items: center;
+    
+}
+
+.container{
+    display: flex;
+    height: 60vh;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: linear-gradient(100deg,#1e292e, #4a5572);
+}
+
+.lado_esquerdo{
+    height: auto;
+    width: 60%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.lado_direito{
+    height: auto;
+    width: 40%;
+    
+    display: grid;
+    justify-content: center;
+}
+
+.rodape{
+    background: linear-gradient(100deg,#2b4741, #1e292e);
+    height: 10vh;
+    margin-top: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.categorias_rodape{
+    display: flex;
+    margin-left: 65vh;
+}
+
+.texto_rodape{
+    height: 10vh;
+    width: 10vh;
+}
+
+.h1_rodape{
+    color: white;
+    margin-left: 125vh;
+}
+
+h2.home a {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+}
+
+h2.produtos a {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+}
+
+h2.contato a {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+}
+
+h2.sobre a {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+}
+
+.home_botao{
+    margin-left: 2vh;
+}
+.produtos_botao{
+    margin-left: 2vh;
+}
+.contato_botao{
+    margin-left: 2vh;
+}
+.sobre_botao{
+    margin-left: 2vh;
+}
+.carrinho{
+    height: 60px;
+    width: 60px;
+    margin-left: 2vh;
+}
+
+img.carrinho{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.titulo_grande{
+    height: 60vh;
+    width: 60vh;
+}
+
+.carrinho_grande{
+    height: 55vh;
+    width: 95vh;
+}
+
+h3{
+    font-size: 40px;
+    font-family: "Tinos", serif;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #333;
+    text-align: center;
+}
+
+.h3_a{
+    color: #00ffc2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.h3_b{
+    color: #ffde00;
+}
+
+.h3_c{
+    color: #00ffc2;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    margin-right: 20vh;
+}
+
+.produtos{
+    display: flex;
+}
+.carrossel {
+    position: relative;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 70vh;
+    width: 60vh;
+    margin-left: 30vh;
+}
+
+.carrossel-imagens {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrossel-imagens img {
+    width: 100%;
+    min-width: 100%;
+    border-radius: 10px;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+button.prev:hover, button.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

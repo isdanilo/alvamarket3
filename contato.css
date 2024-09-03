@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(100deg,#1e292e, #4a5572);
+    
+}
+#market{
+    color: #00ffc2;
+}
+#alva{
+    color: #ffde00;
+}
+.titulo{
+    display: flex;
+    font-size: 40px;
+    width: 50vh;
+    margin-left: 20vh;
+}
+
+.a_sem_efeito{
+    text-decoration: none;
+    color:cadetblue;
+}
+
+h1{
+    color:white;
+}
+
+h2{
+    font-style: normal;
+}
+
+h3{
+    margin-top: 2vh;
+    color:cadetblue;
+}
+.cabecalho{
+    display: grid;
+    background-color: #2b4741;
+    margin: 0;
+    padding: 0;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    height: 60vh;
+    margin-top: 5vh;
+    width: 150vh;
+    margin-left: 25vh;
+    background-color: #2b4741;
+    border-radius: 8px;
+}
+
+.email{
+    height: auto;
+    width:30%;
+    margin-left: 5%;
+}
+
+.telefone{
+    height: auto;
+    width:30%;
+    margin-left: 5%;
+}
+
+.linkedin{
+    height: auto;
+    width: 30%;
+}
+
+.icone{
+    height: 20%;
+    margin-top: 5%;
+}
+
+.icones{
+    height: 10vh;
+}
+
+.categoria{
+    height: 10vh;
+}

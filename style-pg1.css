@@ -1,0 +1,92 @@
+#market{
+    color: #00ffc2;
+}
+#alva{
+    color: #ffde00;
+}
+.titulo{
+    display: flex;
+    font-size: 40px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Tinos", serif;
+    background: linear-gradient(100deg,#1e292e, #4a5572);
+}
+
+.container {
+    background-color: #1e292e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ffdd0094;
+    width: 300px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    text-align: center;
+    border-radius: 30px;
+    
+}
+.cadastro
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 35px;
+    color: #00ffc2;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #555;
+    font-family: "Bebas Neue", sans-serif;
+    color: #ffde00;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 70px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    background-color: #00ffc2;
+    color: #007463;
+    border: none;
+    border-radius: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+button:hover {
+    background-color: #ffde00;
+    color: #8b7d00;
+}
+
+
